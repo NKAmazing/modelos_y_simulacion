@@ -1,0 +1,6 @@
+OPTION_1 = "1. Iniciar simulación"
+OPTION_2 = "2. Salir"
+SELECT_OPTION = "Seleccione una opción: "
+START_SIMULATION = "Iniciando simulación..."
+EXIT = "Saliendo..."
+INVALID_OPTION = "Opción no válida"
