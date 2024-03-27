@@ -14,10 +14,11 @@ class Config():
         '''
         self.hares = 500
         self.foxes = 10
-        self.weeks = 600
+        self.weeks = 500
         self.initial_time = 1
-        self.final_time = 600
+        self.final_time = 500
         self.dt = 1
+        self.land_capacity = 1400
         self.hares_birth_rate = 0.08
         self.hares_death_rate = 0.002
         self.foxes_birth_rate = 0.0004
