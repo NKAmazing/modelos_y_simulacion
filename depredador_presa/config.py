@@ -1,4 +1,4 @@
-
+from constants import *
 
 class Config():
     '''
@@ -6,20 +6,15 @@ class Config():
     '''
 
     def __init__(self):
-        pass
+        self.configurations = VARIABLE_SETS
 
-    def load_variables(self):
+    def load_variables(self, option):
         '''
-        Load each variable of the simulation
+        Load each variable of the simulation based on the option chosen by the user
         '''
-        self.hares = 500
-        self.foxes = 10
-        self.weeks = 500
-        self.initial_time = 1
-        self.final_time = 500
-        self.dt = 1
-        self.land_capacity = 1400
-        self.hares_birth_rate = 0.08
-        self.hares_death_rate = 0.002
-        self.foxes_birth_rate = 0.0004
-        self.foxes_death_rate = 0.2
+        if option in self.configurations:
+            for key, value in self.configurations[option].items():
+                setattr(self, key, value)
+        else:
+            print(INVALID_VARIABLE_OPTION)
+            self.load_variables(1)
