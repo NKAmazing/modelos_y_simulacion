@@ -6,6 +6,9 @@ class Config():
     '''
 
     def __init__(self):
+        '''
+        Constructor of the class
+        '''
         self.configurations = VARIABLE_SETS
 
     def load_variables(self, option):

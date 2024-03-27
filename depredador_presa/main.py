@@ -1,6 +1,9 @@
 from menu import Menu
 
 def main():
+    '''
+    Main function of the program
+    '''
     menu = Menu()
     menu.show_options()
 

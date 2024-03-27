@@ -10,9 +10,6 @@ class PredatorPrey():
         '''
         Constructor of the class
         '''
-        # self.config = Config()
-        # self.config.load_variables(1)
-        # self.land_capacity = self.config.land_capacity
 
     def run(self, dt, initial_time, initial_preys, initial_predators, preys_birth_rate, preys_death_rate, 
             predators_birth_rate, predators_death_rate, elapsed_time, land_capacity):
