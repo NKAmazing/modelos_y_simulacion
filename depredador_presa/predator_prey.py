@@ -6,11 +6,6 @@ class PredatorPrey():
     Class to simulate the predator-prey model
     '''
     
-    def __init__(self):
-        '''
-        Constructor of the class
-        '''
-
     def run(self, dt, initial_time, initial_preys, initial_predators, preys_birth_rate, preys_death_rate, 
             predators_birth_rate, predators_death_rate, elapsed_time, land_capacity):
         '''
