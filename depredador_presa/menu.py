@@ -2,6 +2,7 @@ from predator_prey import PredatorPrey
 from constants import *
 from config import Config
 from graphics_plotter import GraphicsPlotter
+from functions import set_range_limit
 
 class Menu():
     '''
@@ -45,7 +46,10 @@ class Menu():
                 print("Predators: ", predators_result)
                 plotter = GraphicsPlotter()
                 plotter.plot_population_variation(time_result, preys_result, predators_result)
-                plotter.plot_population_variation_with_both_axes(time_result, preys_result, predators_result)
+                ranges = set_range_limit(variable_option)
+                ax1_limit = ranges['ax1']
+                ax2_limit = ranges['ax2']
+                plotter.plot_population_variation_with_both_axes(time_result, preys_result, predators_result, ax1_limit, ax2_limit)
                 plotter.plot_phase_diagram(preys_result, predators_result)
                 print(END_SIMULATION)
                 break

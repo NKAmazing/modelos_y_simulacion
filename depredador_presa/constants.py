@@ -30,29 +30,44 @@ VARIABLE_SETS = {
                 'foxes_death_rate': 0.2
             },
             2: {
-                'hares': 600,
-                'foxes': 20,
-                'weeks': 600,
+                'hares': 500,
+                'foxes': 250,
+                'weeks': 500,
                 'initial_time': 1,
-                'final_time': 600,
-                'dt': 1,
-                'land_capacity': 1800,
-                'hares_birth_rate': 0.1,
-                'hares_death_rate': 0.002,
-                'foxes_birth_rate': 0.0008,
-                'foxes_death_rate': 0.4
-            },
-            3: {
-                'hares': 700,
-                'foxes': 30,
-                'weeks': 700,
-                'initial_time': 1,
-                'final_time': 700,
+                'final_time': 500,
                 'dt': 1,
                 'land_capacity': 1500,
-                'hares_birth_rate': 0.12,
+                'hares_birth_rate': 0.08,
                 'hares_death_rate': 0.002,
-                'foxes_birth_rate': 0.0012,
-                'foxes_death_rate': 0.6
+                'foxes_birth_rate': 0.0004,
+                'foxes_death_rate': 0.2
+            },
+            3: {
+                'hares': 1000,
+                'foxes': 5,
+                'weeks': 300,
+                'initial_time': 1,
+                'final_time': 300,
+                'dt': 1,
+                'land_capacity': 1400,
+                'hares_birth_rate': 0.08,
+                'hares_death_rate': 0.002,
+                'foxes_birth_rate': 0.0004,
+                'foxes_death_rate': 0.2
             }
+}
+
+RANGE_LIMITS = {
+    1: {
+        'ax1': 1200,
+        'ax2': 90,
+    },
+    2: {
+        'ax1': 1400,
+        'ax2': 300,
+    },
+    3: {
+        'ax1': 1200,
+        'ax2': 250,
+    }
 }
