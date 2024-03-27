@@ -1,6 +1,6 @@
 # Simulación de Modelo Depredador Presa
 
-Esta es una simulación de poblaciones de liebres y zorros en un campo cerrado natural, donde no intervienen otros animales ni predadores, con el objetivo de estudiar la manera en la que interactuan ambas poblaciones en un determinado tiempo.
+Esta es una simulación de poblaciones de liebres y zorros en un campo cerrado natural, donde no intervienen otros animales ni depredadores, con el objetivo de estudiar la manera en la que interactuan ambas poblaciones en un determinado tiempo.
 
 ## Instalación
 
