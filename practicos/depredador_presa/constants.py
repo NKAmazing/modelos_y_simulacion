@@ -18,7 +18,7 @@ INVALID_VARIABLE_OPTION = "Opción inválida. Cargando configuración por defect
 VARIABLE_SETS = {
             1: {
                 'hares': 500,
-                'foxes': 10,
+                'foxes': 150,
                 'weeks': 500,
                 'initial_time': 1,
                 'final_time': 500,
